@@ -1,0 +1,75 @@
+CMSE 202 Project Overview
+
+GOALS:
+* Create a model of solar systems that map out the habitable 
+zone and the planets
+* Maybe include the actual orbit of the planets, taking into 
+account their eccentricity
+* Create classes that are used to store the data
+ 
+
+OUTLINE:
+* Planet Class
+	- Atributes:
+		* closest distance to sun? 
+			- could just use semi-major axis
+		* eccentricity
+		* orbital period
+		* semi-major axis
+		* planet name
+	- Methods:
+		* set/get distance? 
+		* set/get eccentricity
+		* set/get orbital period
+		* set/get semi-major axis
+
+* Sun Class
+	- Atributes:
+		* solar radius
+		* effective temperature
+		* solar type
+		* sun name
+	- Methods:
+		* set/get solarradius
+		* set/get solar type
+		* get habitable zone
+			- this would calculate the temperature gradient 
+			and find the distances from the sun that are 
+			0 and 100 celsius, as well as the distances that are 
+			-10 and 110 celsuis (buffer zone in case of atmosphere)
+				* research to find a more accurate buffer
+
+* Solar System Class
+	- use dictionaries to organize the planets (similar to the animal class)
+	- Atributes:
+		* sun name
+		* planet names
+		* number planets
+		* solar system name
+	- Methods:
+		* add sun
+			- would check to see if there is already a sun in the 
+			system, would only allow one sun
+		* add planet
+		* get number planets
+		* set/get solar system name
+		* plot system
+			- this should plot the solar system (similar to the plot
+			in the day 11 PCA)
+			- plots the habitable zone and the buffer
+			- plots the planets
+			- plots the sun at the center using it's type to determine 
+			the color
+		* get planets
+			- lists out the planets and whether or not they are habitable
+			- uses the planets distances and the sun habitable zones to 
+			determine if the planets are not habitable, habitable, or 
+			possibly habitable
+		* plot orbits
+			- plots the planets orbits using their distance/semimajor 
+			axis as a starting point
+			- uses their ecentricity in the calculation
+
+* WRITEUP
+ 
+* PRESENTATION
