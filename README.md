@@ -1,6 +1,9 @@
 # CMSE202-Habitable-Zone-Project
 CMSE 202 project of modeling the habitable zone of a planet
 
+### Running the Program
+All that is needed to run this project is to git clone this repository, and run all on the 'Habitable Zone Code' which will display results within that file. 
+
 
 ### Habitable Zone Code
 This is the working code portion of the project. This .ipynb file contains the Planet, Star, and Solar System class. After the classes is code to read in and give the status of weather a planet is habitable or not as well as plot the solar system with habitable zones and planetary orbits. It does work on the three systems in the data folder. 
