@@ -7,7 +7,11 @@ This is the working code portion of the project. This .ipynb file contains the P
 
 
 ### Project Data
-This folder holds the data required to run the 'Habitable Zone Code.ipynb' file. Three solar systems as .csv files containing all the information the code needs. 
+This folder holds the original data along with code that was use to filter it to the desired portions. 
+
+
+### Cleaned Data
+This folder holds the filtered data required to run the 'Habitable Zone Code.ipynb' file. Three solar systems as .csv files containing all the information the code needs. 
 
 
 ### CMSE202 Project Presntation
